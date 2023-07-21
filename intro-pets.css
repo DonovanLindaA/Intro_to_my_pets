@@ -1,0 +1,152 @@
+body{
+    background-color: lightsteelblue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: black;
+    font-size: large;
+    font-family: "Helvetica", "Arial", Sans-serif;
+}
+
+h1{
+    font-size: 32px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    color: #046E6E;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: normal;
+    color: #046E6E;
+    text-decoration: underline;
+    text-decoration-color: #74AC06;
+}
+
+p{
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", Sans-serif;
+    text-align: justify;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+fieldset{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 10px 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input[type=text]{
+    display: block;
+    color: #046E6E;
+    font-family: "Helvetica", "Arial", Sans-serif;
+    font-size: 24px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 1px 2.5px;
+    text-align: justify;
+}
+
+input[type=checkbox]{
+    border-radius: 25px;
+}
+
+#textarea{
+    display: block;
+    color: #046E6E;
+    font-family: "Helvetica", "Arial", Sans-serif;
+    font-size: 12px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 2px 7px;
+}
+
+.flex-parent{
+    display: flex;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+button{
+    background-color: #74AC06;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px 24px;
+    transition-duration: 3s;
+    transition-property: font-size;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+button:hover{
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    font-family: "Helvetica", "Arial", Sans-serif;
+    font-size: 18px;
+}
+
+ul li::before{
+    content: "\2022";
+    color: #74AC06;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+a:link{
+    color: #046E6E;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #B80606;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #046E6E;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #B80606;
+    text-decoration: none;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cat{
+    width: 490px;
+    height: 450px;
+    border: 2px solid #74AC06;
+}
+
+figcaption{
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", Sans-serif;
+}

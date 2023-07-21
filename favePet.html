@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="intro-pets.css">
+        <title>Fave Pet</title>
+    </head>
+
+    <body>
+
+        <header><br>
+            <div class="nav">
+                <a href="./index.html" target="_blank">Home</a>
+                <a href="./favePet.html" target="_blank">Fave Pet</a>
+                <a href="./helpfulLinks.html" target="_blank">Helpful Links</a>
+                <a href="./meetMyFurbabies.html" target="_blank">Meet my Furbabies!</a>
+            </div>
+        </header><br>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <div>
+                    <label for="funFemalePetName">Fun Female Pet Name:</label>
+                    <input type="text" id="funFemalePetName" name="female_name">
+                </div><br>
+
+                <div>
+                    <label for="funMalePetName">Fun Male Pet Name:</label>
+                    <input type="text" id="funMalePetName" name="male_name">
+                </div><br>
+
+                <div>
+                    <input type="checkbox" id="petDog" name="petDog" value="Dog">
+                    <label for="petDog">Dog</label><br>
+                    <input type="checkbox" id="petCat" name="petCat" value="Cat">
+                    <label for="petCat">Cat</label><br>
+                    <input type="checkbox" id="petOther" name="petOther" value="Other">
+                    <label for="petOther">Other</label><br><br>
+                </div>
+
+                <div>
+                    <label for="textarea">If Other, please explain:</label>
+                    <textarea id="textarea" name="textarea"></textarea>
+                </div><br><br>
+
+                <!--please note I do not have this website set up to collect information at this time.-->
+                <div class="flex-parent jc-center">
+                    <button type="submit">Let me know your Fave!</button>
+                </div><br><br>
+
+            </fieldset>
+        </form>
+
+        <img src="./homepaw.jpg" alt="Paw on doghouse" class="center">
+
+    </body>
+
+</html>
